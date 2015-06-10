@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D48162091B27AF680053F781 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48162081B27AF680053F781 /* AppDelegate.swift */; };
+		D481620B1B27AF680053F781 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D481620A1B27AF680053F781 /* ViewController.swift */; };
+		D481620E1B27AF680053F781 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D481620C1B27AF680053F781 /* Main.storyboard */; };
+		D48162101B27AF680053F781 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D481620F1B27AF680053F781 /* Images.xcassets */; };
+		D48162131B27AF680053F781 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D48162111B27AF680053F781 /* LaunchScreen.xib */; };
+		D481621F1B27AF680053F781 /* frankensteinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D481621E1B27AF680053F781 /* frankensteinTests.swift */; };
+		D48162291B27B8AA0053F781 /* pangolin-scales-shiny-hot-13812-1600x1000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D48162281B27B8AA0053F781 /* pangolin-scales-shiny-hot-13812-1600x1000.jpg */; };
+		D481622B1B27B9980053F781 /* babypangolin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D481622A1B27B9980053F781 /* babypangolin.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D48162191B27AF680053F781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D48161FB1B27AF680053F781 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D48162021B27AF680053F781;
+			remoteInfo = frankenstein;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D48162031B27AF680053F781 /* frankenstein.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = frankenstein.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48162071B27AF680053F781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D48162081B27AF680053F781 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D481620A1B27AF680053F781 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D481620D1B27AF680053F781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D481620F1B27AF680053F781 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D48162121B27AF680053F781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D48162181B27AF680053F781 /* frankensteinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = frankensteinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D481621D1B27AF680053F781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D481621E1B27AF680053F781 /* frankensteinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frankensteinTests.swift; sourceTree = "<group>"; };
+		D48162281B27B8AA0053F781 /* pangolin-scales-shiny-hot-13812-1600x1000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "pangolin-scales-shiny-hot-13812-1600x1000.jpg"; path = "../../../Desktop/pangolin-scales-shiny-hot-13812-1600x1000.jpg"; sourceTree = "<group>"; };
+		D481622A1B27B9980053F781 /* babypangolin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = babypangolin.jpg; path = ../../../Desktop/babypangolin.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D48162001B27AF680053F781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48162151B27AF680053F781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D48161FA1B27AF670053F781 = {
+			isa = PBXGroup;
+			children = (
+				D481622A1B27B9980053F781 /* babypangolin.jpg */,
+				D48162281B27B8AA0053F781 /* pangolin-scales-shiny-hot-13812-1600x1000.jpg */,
+				D48162051B27AF680053F781 /* frankenstein */,
+				D481621B1B27AF680053F781 /* frankensteinTests */,
+				D48162041B27AF680053F781 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D48162041B27AF680053F781 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D48162031B27AF680053F781 /* frankenstein.app */,
+				D48162181B27AF680053F781 /* frankensteinTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D48162051B27AF680053F781 /* frankenstein */ = {
+			isa = PBXGroup;
+			children = (
+				D48162081B27AF680053F781 /* AppDelegate.swift */,
+				D481620A1B27AF680053F781 /* ViewController.swift */,
+				D481620C1B27AF680053F781 /* Main.storyboard */,
+				D481620F1B27AF680053F781 /* Images.xcassets */,
+				D48162111B27AF680053F781 /* LaunchScreen.xib */,
+				D48162061B27AF680053F781 /* Supporting Files */,
+			);
+			path = frankenstein;
+			sourceTree = "<group>";
+		};
+		D48162061B27AF680053F781 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D48162071B27AF680053F781 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D481621B1B27AF680053F781 /* frankensteinTests */ = {
+			isa = PBXGroup;
+			children = (
+				D481621E1B27AF680053F781 /* frankensteinTests.swift */,
+				D481621C1B27AF680053F781 /* Supporting Files */,
+			);
+			path = frankensteinTests;
+			sourceTree = "<group>";
+		};
+		D481621C1B27AF680053F781 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D481621D1B27AF680053F781 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D48162021B27AF680053F781 /* frankenstein */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D48162221B27AF680053F781 /* Build configuration list for PBXNativeTarget "frankenstein" */;
+			buildPhases = (
+				D48161FF1B27AF680053F781 /* Sources */,
+				D48162001B27AF680053F781 /* Frameworks */,
+				D48162011B27AF680053F781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = frankenstein;
+			productName = frankenstein;
+			productReference = D48162031B27AF680053F781 /* frankenstein.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D48162171B27AF680053F781 /* frankensteinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D48162251B27AF680053F781 /* Build configuration list for PBXNativeTarget "frankensteinTests" */;
+			buildPhases = (
+				D48162141B27AF680053F781 /* Sources */,
+				D48162151B27AF680053F781 /* Frameworks */,
+				D48162161B27AF680053F781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D481621A1B27AF680053F781 /* PBXTargetDependency */,
+			);
+			name = frankensteinTests;
+			productName = frankensteinTests;
+			productReference = D48162181B27AF680053F781 /* frankensteinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D48161FB1B27AF680053F781 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = aloughman;
+				TargetAttributes = {
+					D48162021B27AF680053F781 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					D48162171B27AF680053F781 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = D48162021B27AF680053F781;
+					};
+				};
+			};
+			buildConfigurationList = D48161FE1B27AF680053F781 /* Build configuration list for PBXProject "frankenstein" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D48161FA1B27AF670053F781;
+			productRefGroup = D48162041B27AF680053F781 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D48162021B27AF680053F781 /* frankenstein */,
+				D48162171B27AF680053F781 /* frankensteinTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D48162011B27AF680053F781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D481622B1B27B9980053F781 /* babypangolin.jpg in Resources */,
+				D481620E1B27AF680053F781 /* Main.storyboard in Resources */,
+				D48162291B27B8AA0053F781 /* pangolin-scales-shiny-hot-13812-1600x1000.jpg in Resources */,
+				D48162131B27AF680053F781 /* LaunchScreen.xib in Resources */,
+				D48162101B27AF680053F781 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48162161B27AF680053F781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D48161FF1B27AF680053F781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D481620B1B27AF680053F781 /* ViewController.swift in Sources */,
+				D48162091B27AF680053F781 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48162141B27AF680053F781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D481621F1B27AF680053F781 /* frankensteinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D481621A1B27AF680053F781 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D48162021B27AF680053F781 /* frankenstein */;
+			targetProxy = D48162191B27AF680053F781 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D481620C1B27AF680053F781 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D481620D1B27AF680053F781 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D48162111B27AF680053F781 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D48162121B27AF680053F781 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D48162201B27AF680053F781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D48162211B27AF680053F781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D48162231B27AF680053F781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = frankenstein/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D48162241B27AF680053F781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = frankenstein/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D48162261B27AF680053F781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = frankensteinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/frankenstein.app/frankenstein";
+			};
+			name = Debug;
+		};
+		D48162271B27AF680053F781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = frankensteinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/frankenstein.app/frankenstein";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D48161FE1B27AF680053F781 /* Build configuration list for PBXProject "frankenstein" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48162201B27AF680053F781 /* Debug */,
+				D48162211B27AF680053F781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D48162221B27AF680053F781 /* Build configuration list for PBXNativeTarget "frankenstein" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48162231B27AF680053F781 /* Debug */,
+				D48162241B27AF680053F781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D48162251B27AF680053F781 /* Build configuration list for PBXNativeTarget "frankensteinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48162261B27AF680053F781 /* Debug */,
+				D48162271B27AF680053F781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D48161FB1B27AF680053F781 /* Project object */;
+}
