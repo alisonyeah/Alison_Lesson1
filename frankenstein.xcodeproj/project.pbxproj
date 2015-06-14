@@ -13,8 +13,9 @@
 		D48162101B27AF680053F781 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D481620F1B27AF680053F781 /* Images.xcassets */; };
 		D48162131B27AF680053F781 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D48162111B27AF680053F781 /* LaunchScreen.xib */; };
 		D481621F1B27AF680053F781 /* frankensteinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D481621E1B27AF680053F781 /* frankensteinTests.swift */; };
-		D48162291B27B8AA0053F781 /* pangolin-scales-shiny-hot-13812-1600x1000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D48162281B27B8AA0053F781 /* pangolin-scales-shiny-hot-13812-1600x1000.jpg */; };
-		D481622B1B27B9980053F781 /* babypangolin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D481622A1B27B9980053F781 /* babypangolin.jpg */; };
+		D481622D1B2A4A6F0053F781 /* Headshot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D481622C1B2A4A6F0053F781 /* Headshot.jpg */; };
+		D481625F1B2A63390053F781 /* 10959322_2501028921461_733098414289414910_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D481625E1B2A63390053F781 /* 10959322_2501028921461_733098414289414910_n.jpg */; };
+		D48162611B2E26420053F781 /* pangolin-scales-shiny-hot-13812-1600x1000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D48162601B2E26420053F781 /* pangolin-scales-shiny-hot-13812-1600x1000.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +39,9 @@
 		D48162181B27AF680053F781 /* frankensteinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = frankensteinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D481621D1B27AF680053F781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D481621E1B27AF680053F781 /* frankensteinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frankensteinTests.swift; sourceTree = "<group>"; };
-		D48162281B27B8AA0053F781 /* pangolin-scales-shiny-hot-13812-1600x1000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "pangolin-scales-shiny-hot-13812-1600x1000.jpg"; path = "../../../Desktop/pangolin-scales-shiny-hot-13812-1600x1000.jpg"; sourceTree = "<group>"; };
-		D481622A1B27B9980053F781 /* babypangolin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = babypangolin.jpg; path = ../../../Desktop/babypangolin.jpg; sourceTree = "<group>"; };
+		D481622C1B2A4A6F0053F781 /* Headshot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Headshot.jpg; path = ../../Headshot.jpg; sourceTree = "<group>"; };
+		D481625E1B2A63390053F781 /* 10959322_2501028921461_733098414289414910_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 10959322_2501028921461_733098414289414910_n.jpg; path = ../../../Downloads/10959322_2501028921461_733098414289414910_n.jpg; sourceTree = "<group>"; };
+		D48162601B2E26420053F781 /* pangolin-scales-shiny-hot-13812-1600x1000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "pangolin-scales-shiny-hot-13812-1600x1000.jpg"; path = "../../../Desktop/pangolin-scales-shiny-hot-13812-1600x1000.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +65,9 @@
 		D48161FA1B27AF670053F781 = {
 			isa = PBXGroup;
 			children = (
-				D481622A1B27B9980053F781 /* babypangolin.jpg */,
-				D48162281B27B8AA0053F781 /* pangolin-scales-shiny-hot-13812-1600x1000.jpg */,
+				D48162601B2E26420053F781 /* pangolin-scales-shiny-hot-13812-1600x1000.jpg */,
+				D481625E1B2A63390053F781 /* 10959322_2501028921461_733098414289414910_n.jpg */,
+				D481622C1B2A4A6F0053F781 /* Headshot.jpg */,
 				D48162051B27AF680053F781 /* frankenstein */,
 				D481621B1B27AF680053F781 /* frankensteinTests */,
 				D48162041B27AF680053F781 /* Products */,
@@ -198,11 +201,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D481622B1B27B9980053F781 /* babypangolin.jpg in Resources */,
 				D481620E1B27AF680053F781 /* Main.storyboard in Resources */,
-				D48162291B27B8AA0053F781 /* pangolin-scales-shiny-hot-13812-1600x1000.jpg in Resources */,
+				D48162611B2E26420053F781 /* pangolin-scales-shiny-hot-13812-1600x1000.jpg in Resources */,
+				D481625F1B2A63390053F781 /* 10959322_2501028921461_733098414289414910_n.jpg in Resources */,
 				D48162131B27AF680053F781 /* LaunchScreen.xib in Resources */,
 				D48162101B27AF680053F781 /* Images.xcassets in Resources */,
+				D481622D1B2A4A6F0053F781 /* Headshot.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +423,7 @@
 				D48162241B27AF680053F781 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D48162251B27AF680053F781 /* Build configuration list for PBXNativeTarget "frankensteinTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +432,7 @@
 				D48162271B27AF680053F781 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
