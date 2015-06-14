@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>970F0B56-6BFC-4AD5-A6C9-142B1793AA5C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>frankenstein</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4C00B2EA074CDDC3F34C52EC11C9CDDEC73D5AD2</key>
+		<string>https://github.com/alisonyeah/Alison_Lesson1.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>frankenstein.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4C00B2EA074CDDC3F34C52EC11C9CDDEC73D5AD2</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/alisonyeah/Alison_Lesson1.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4C00B2EA074CDDC3F34C52EC11C9CDDEC73D5AD2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4C00B2EA074CDDC3F34C52EC11C9CDDEC73D5AD2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Alison_Lesson1</string>
+		</dict>
+	</array>
+</dict>
+</plist>
